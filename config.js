@@ -5,16 +5,16 @@ const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
  SESSION_ID: process.env.SESSION_ID || "",
  HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
- BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;ғxᴏᴘ-ᴍᴅ", //YourName;BotName;Image/VideoLink
- SUDO: process.env.SUDO || "2348039607375,2349162411207",
+ BOT_INFO: process.env.BOT_INFO || "𝐅𝖾ᥣ𝗂𝗑", //YourName;BotName;Image/VideoLink
+ SUDO: process.env.SUDO || "918127875972",
  TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
  LOGS: toBool(process.env.LOGS) || true,
  ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
  BRANCH: "master",
  WARN_COUNT: 3,
- AUTHOR: process.env.AUTHOR || "ғxᴏᴘ-ᴍᴅ",
+ AUTHOR: process.env.AUTHOR || "𝐉ⱺ 𝐂ⱺρ𝗒 𝐊𝗂𝗒α 𝐖ⱺɦ 𝐒υα𝗋",
  ANTIWORDS: process.env.ANTIWORDS || "badword1,badword2,badword3",
- PACKNAME: process.env.PACKNAME || "ғxᴏᴘ-ᴍᴅ",
+ PACKNAME: process.env.PACKNAME || "𝐅𝖾ᥣ𝗂𝗑",
  WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
  ANTILINK: toBool(process.env.ANTI_LINK) || false,
